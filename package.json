@@ -2,12 +2,13 @@
   "name": "vue-weather-app",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://[github-username].github.io/[github-repository-name]",
+  "homepage": "https://yegayv.github.io/vue-weather-app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "publish": "gh-pages -d src"
+    "deploy": "gh-pages -d src",
+    "pre-deploy": "npm run build"
   },
   "dependencies": {
     "gh-pages": "^5.0.0",
