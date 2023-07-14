@@ -2,7 +2,7 @@
   "name": "vue-weather-app",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://yegayv.github.io/vue-weather-app",
+  "homepage": "https://[github-username].github.io/[github-repository-name]",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
