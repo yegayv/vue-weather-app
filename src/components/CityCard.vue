@@ -5,17 +5,15 @@
       <h3>{{ city.state }}</h3>
     </div>
     <div class="flex flex-col gap-2">
-      <p class="text-3xl self-end">{{ Math.round(city.weather.main.temp) }} &deg;</p>
+      <p class="text-3xl self-end">
+        {{ Math.round(city.weather.main.temp) }} &deg;
+      </p>
       <div class="flex gap-2">
         <span class="text-xs">
-          D:{{
-            Math.round(city.weather.main.temp_max)
-          }} &deg;
+          D:{{ Math.round(city.weather.main.temp_max) }} &deg;
         </span>
         <span class="text-xs">
-          N:{{
-            Math.round(city.weather.main.temp_min)
-          }} &deg;
+          N:{{ Math.round(city.weather.main.temp_min) }} &deg;
         </span>
       </div>
     </div>
